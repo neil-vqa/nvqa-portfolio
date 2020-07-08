@@ -7,6 +7,13 @@
 	<title>Neil Van Alino | Web Development Portfolio</title>
 	<meta name="description" content="Learn about Neil Van Alino: his skills and projects.">
 	
+	<meta property="og:title" content="Neil Van Alino | Web Development Portfolio">
+	<meta property="og:image" content="/static/web_developer.png">
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Neil Van Alino | Web Development Portfolio">
+	<meta name="twitter:image" content="/static/web_developer.png">
+	
 	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -87,14 +94,11 @@
 		@media screen and (min-width: 600px) {
 			.content {
 				margin-right: 0.7rem;
+				margin-top: 2rem;
 			}
 			
 			.navi {
 				padding: 1rem 1rem 1rem 0rem;
-				margin-top: 2rem;
-			}
-			
-			.content {
 				margin-top: 2rem;
 			}
 			
@@ -180,29 +184,7 @@
 		</div>
 	</section>
 	
-	</div>
-	
-	<form name='Contact-Me-Form' class='section' netlify netlify-honeypot="bot-field" hidden>
-		<div class="input-field">
-		  <i class="material-icons prefix grey-text text-darken-1">person</i>
-		  <input type="text" id="name" name="Name" required>
-		  <label for="name">Your Name</label>
-		</div>
-		<div class="input-field">
-		  <i class="material-icons prefix grey-text text-darken-1">email</i>
-		  <input type="email" id="email" name="Email" class="validate" required>
-		  <label for="email">Your Email</label>
-		</div>
-		<div class="input-field">
-		  <i class="material-icons prefix grey-text text-darken-1">note_add</i>
-		  <textarea id="textarea1" class="materialize-textarea" name="Message" required></textarea>
-		  <label for="textarea1">Your questions, requests, concerns...</label>
-		</div>
-		<div class="input-field center">
-			<button type="submit" class="light-blue btn-large z-depth-0">Send</button>
-		</div>
-	</form>
-	
+	</div>	
 	
 	
 	<script src="https://unpkg.com/vue@2.6.11/dist/vue.js"></script>
@@ -528,7 +510,7 @@
 								<h5 class="center text-highlight">Email</h5>
 								<div>
 									<p class="card-title par-text">Email to nvqa.business@gmail.com</p>
-									<form name='Contact-Me-Form' class='section' netlify>
+									<form name='Contact-Me-Form' class='section' action="https://formspree.io/mbjzzwjy" method="POST">
 										<div class="input-field">
 										  <i class="material-icons prefix grey-text text-darken-1">person</i>
 										  <input type="text" id="name" name="Name" required>
@@ -573,7 +555,7 @@
 								<h6 class="center text-highlight">Email</h6>
 								<div>
 									<p class="card-title par-text-sm">To: nvqa.business@gmail.com</p>
-									<form name='Contact-Me-Form' class='section' netlify>
+									<form name='Contact-Me-Form' class='section' action="https://formspree.io/mbjzzwjy" method="POST">
 										<div class="input-field">
 										  <i class="material-icons prefix grey-text text-darken-1">person</i>
 										  <input type="text" id="name" name="Name" required>
