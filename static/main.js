@@ -10,7 +10,7 @@ Home = Vue.component('home', {
 					<h2 class="text-mute">full stack web developer</h2>
 				</div>
 				<div class="col s12 m8 offset-m2 hide-on-med-and-up">
-					<img src="/static/neilvqa_logo.png" class="responsive-img" style="width: 50%;"/>
+					<img src="/static/neilvqa_logo.png" class="responsive-img logo" style="width: 50%;"/>
 					<br /><br />
 					<h6>NEIL VAN ALIÑO</h6>
 					<h6 class="text-mute">full stack web developer</h6>
