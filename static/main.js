@@ -236,6 +236,7 @@ Projects = Vue.component('projects', {
 						<a class="project-chip" href="https://coffee-domus-meae.netlify.app/" target="_blank"><img src="/media/coffee-domus.webp"></img></a>
 						<a class="project-chip" href="https://storeisopen-backend.herokuapp.com/" target="_blank"><img src="/media/storeopen.webp"></img></a>
 						<a class="project-chip" href="https://demver-barbers.netlify.app/" target="_blank"><img src="/media/demver-barbers.webp"></img></a>
+						<a class="project-chip" href="https://zweddings.netlify.app/" target="_blank"><img src="/media/zwed-shot.webp"></img></a>
 						<a class="project-chip" href="https://pamaligya.netlify.app/" target="_blank"><img src="/media/pamaligya-shot.webp"></img></a>
 						<a class="project-chip" href="https://laagan-travels.netlify.app/" target="_blank"><img src="/media/travel-shot.webp"></img></a>
 						<a class="project-chip" href="https://wolfin-techs.firebaseapp.com/" target="_blank"><img src="/media/wolfin-shot.webp"></img></a>
