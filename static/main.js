@@ -131,20 +131,10 @@ Skills = Vue.component('skills', {
 						</ul>
 					</div>
 					<div class="col s12 m4">
-						<h5 class="center text-highlight">Engineering</h5>
-						<p class="center par-text"><u>3D Modeling</u></p>
-						<ul class="center par-text">
-							<li>Solidworks</li>
-							<li>AutoCAD</li>
-							<li>3DS Max</li>
-							<li>Vray</li>
-						</ul>
-						<h6 class="center text-highlight">Other Relevant Skills</h6>
+						<h5 class="center text-highlight">Other Relevant Skills</h5>
 						<ul class="center par-text">
 							<li>Git</li>
 							<li>Photoshop</li>
-							<li>Krita</li>
-							<li>Inkscape</li>
 							<li>Virtual Assistance</li>
 							<li>Public Speaking</li>
 						</ul>
@@ -192,20 +182,10 @@ Skills = Vue.component('skills', {
 						</ul>
 					</div>
 					<div class="col s12 m4">
-						<h6 class="center text-highlight">Engineering</h6>
-						<p class="center par-text-li"><u>3D Modeling</u></p>
-						<ul class="center par-text-li">
-							<li>Solidworks</li>
-							<li>AutoCAD</li>
-							<li>3DS Max</li>
-							<li>Vray</li>
-						</ul>
 						<h6 class="center text-highlight">Other Relevant Skills</h6>
 						<ul class="center par-text-li">
 							<li>Git</li>
 							<li>Photoshop</li>
-							<li>Krita</li>
-							<li>Inkscape</li>
 							<li>Virtual Assistance</li>
 							<li>Public Speaking</li>
 						</ul>
