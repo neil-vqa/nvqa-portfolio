@@ -1,3 +1,4 @@
+
 Home = Vue.component('home', {
 	delimiters: ["[[","]]"],
 	template: `
@@ -280,21 +281,6 @@ Contact = Vue.component('contact', {
 				<div class="col s12 m8 offset-m2 hide-on-small-and-down">
 					<h1 class="center">Contact</h1>
 					<br />
-					<div class="col s12 m4 offset-m1">
-						<h5 class="center text-highlight">Profiles</h5>
-						<div class="center par-text">
-							<p class="card-title">GitHub</p>
-							<p><a href="https://github.com/neil-vqa" target="_blank">/neil-vqa</a></p>
-						</div>
-						<div class="center par-text">
-							<p class="card-title">Upwork</p>
-							<p><a href="https://www.upwork.com/o/profiles/users/~0169060d088879731f/?s=1110580755107926016" target="_blank">Neil Van A.</a></p>
-						</div>
-						<div class="center par-text">
-							<p class="card-title">LinkedIn</p>
-							<p><a href="https://www.linkedin.com/in/neilvan-qa/" target="_blank">/neilvan-qa</a></p>
-						</div>
-					</div>
 					<div class="col s12 m6 offset-m1">
 						<h5 class="center text-highlight">Email</h5>
 						<div>
@@ -321,25 +307,25 @@ Contact = Vue.component('contact', {
 							</form>
 						</div>
 					</div>
-				</div>
-				<div class="col s10 offset-s1 hide-on-med-and-up">
-					<h5 class="center">Contact</h5>
-					<br />
 					<div class="col s12 m4 offset-m1">
-						<h6 class="center text-highlight">Profiles</h6>
-						<div class="center par-text-li">
+						<h5 class="center text-highlight">Profiles</h5>
+						<div class="center par-text">
 							<p class="card-title">GitHub</p>
 							<p><a href="https://github.com/neil-vqa" target="_blank">/neil-vqa</a></p>
 						</div>
-						<div class="center par-text-li">
+						<div class="center par-text">
 							<p class="card-title">Upwork</p>
 							<p><a href="https://www.upwork.com/o/profiles/users/~0169060d088879731f/?s=1110580755107926016" target="_blank">Neil Van A.</a></p>
 						</div>
-						<div class="center par-text-li">
+						<div class="center par-text">
 							<p class="card-title">LinkedIn</p>
 							<p><a href="https://www.linkedin.com/in/neilvan-qa/" target="_blank">/neilvan-qa</a></p>
 						</div>
 					</div>
+				</div>
+				<div class="col s10 offset-s1 hide-on-med-and-up">
+					<h5 class="center">Contact</h5>
+					<br />
 					<div class="col s12 m6 offset-m1">
 						<h6 class="center text-highlight">Email</h6>
 						<div>
@@ -364,6 +350,21 @@ Contact = Vue.component('contact', {
 									<button type="submit" class="light-blue btn-large z-depth-0">Send</button>
 								</div>
 							</form>
+						</div>
+					</div>
+					<div class="col s12 m4 offset-m1">
+						<h6 class="center text-highlight">Profiles</h6>
+						<div class="center par-text-li">
+							<p class="card-title">GitHub</p>
+							<p><a href="https://github.com/neil-vqa" target="_blank">/neil-vqa</a></p>
+						</div>
+						<div class="center par-text-li">
+							<p class="card-title">Upwork</p>
+							<p><a href="https://www.upwork.com/o/profiles/users/~0169060d088879731f/?s=1110580755107926016" target="_blank">Neil Van A.</a></p>
+						</div>
+						<div class="center par-text-li">
+							<p class="card-title">LinkedIn</p>
+							<p><a href="https://www.linkedin.com/in/neilvan-qa/" target="_blank">/neilvan-qa</a></p>
 						</div>
 					</div>
 				</div>
