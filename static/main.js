@@ -50,7 +50,7 @@ About = Vue.component('about', {
 						as the webmaster and lead web developer of the site. 
 					</p><br />
 					<p class="par-text">
-						Lastly, I am an <a class="text-highlight light-blue lighten-3">international volunteer</a> helping all sorts of people to learn and benefit from God's Word. 
+						Most importantly, I am an <a class="text-highlight light-blue lighten-3">international volunteer</a> helping all sorts of people to learn and benefit from God's Word. 
 					</p>
 				</div>
 				<div class="col s10 offset-s1 hide-on-med-and-up">
