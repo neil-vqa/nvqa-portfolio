@@ -1,7 +1,7 @@
 # redirects
-/home	/
-/about	/
-/skills	/
-/projects	/
-/contact	/
+/home	/	301
+/about	/	301
+/skills	/	301
+/projects	/	301
+/contact	/	301
 https://neilvqa.netlify.app	https://www.neilvqa.host	301
