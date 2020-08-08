@@ -215,6 +215,8 @@ Projects = Vue.component('projects', {
 					<div class="center">
 						<a class="project-chip" href="https://howto-story.herokuapp.com/" target="_blank"><img src="/media/hts-shot.webp"></img></a>
 						<a class="project-chip" href="https://hulagway.site/" target="_blank"><img src="/media/hulagway.webp"></img></a>
+						<a class="project-chip" href="https://ncheon-apparel.netlify.app/" target="_blank"><img src="/media/ncheon-main.webp"></img></a>
+						<a class="project-chip" href="https://ncheon-apparel.herokuapp.com/" target="_blank"><img src="/media/ncheon-admin.webp"></img></a>
 						<a class="project-chip" href="https://coffee-domus-meae.netlify.app/" target="_blank"><img src="/media/coffee-domus.webp"></img></a>
 						<a class="project-chip" href="https://storeisopen-backend.herokuapp.com/" target="_blank"><img src="/media/storeopen.webp"></img></a>
 						<a class="project-chip" href="https://demver-barbers.netlify.app/" target="_blank"><img src="/media/demver-barbers.webp"></img></a>
@@ -248,6 +250,8 @@ Projects = Vue.component('projects', {
 					<div class="center">
 						<a class="project-chip" href="https://howto-story.herokuapp.com/" target="_blank"><img src="/media/hts-shot.webp" class="responsive-img"></img></a>
 						<a class="project-chip" href="https://hulagway.site/" target="_blank"><img src="/media/hulagway.webp" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://ncheon-apparel.netlify.app/" target="_blank"><img src="/media/ncheon-main.webp"></img></a>
+						<a class="project-chip" href="https://ncheon-apparel.herokuapp.com/" target="_blank"><img src="/media/ncheon-admin.webp"></img></a>
 						<a class="project-chip" href="https://coffee-domus-meae.netlify.app/" target="_blank"><img src="/media/coffee-domus.webp" class="responsive-img"></img></a>
 						<a class="project-chip" href="https://storeisopen-backend.herokuapp.com/" target="_blank"><img src="/media/storeopen.webp" class="responsive-img"></img></a>
 						<a class="project-chip" href="https://demver-barbers.netlify.app/" target="_blank"><img src="/media/demver-barbers.webp" class="responsive-img"></img></a>
