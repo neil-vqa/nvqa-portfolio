@@ -119,6 +119,7 @@ Skills = Vue.component('skills', {
 							<li>Linode</li>
 							<li>Netlify</li>
 							<li>Heroku</li>
+							<li>Strapi</li>
 						</ul>
 						<p class="center par-text"><u>Frontend</u></p>
 						<ul class="center par-text">
@@ -170,6 +171,7 @@ Skills = Vue.component('skills', {
 							<li>Linode</li>
 							<li>Netlify</li>
 							<li>Heroku</li>
+							<li>Strapi</li>
 						</ul>
 						<p class="center par-text-li"><u>Frontend</u></p>
 						<ul class="center par-text-li">
