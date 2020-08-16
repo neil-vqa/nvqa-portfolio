@@ -119,7 +119,7 @@ Skills = Vue.component('skills', {
 							<li>Linode</li>
 							<li>Netlify</li>
 							<li>Heroku</li>
-							<li>Strapi</li>
+							<li>Strapi CMS</li>
 						</ul>
 						<p class="center par-text"><u>Frontend</u></p>
 						<ul class="center par-text">
@@ -171,7 +171,7 @@ Skills = Vue.component('skills', {
 							<li>Linode</li>
 							<li>Netlify</li>
 							<li>Heroku</li>
-							<li>Strapi</li>
+							<li>Strapi CMS</li>
 						</ul>
 						<p class="center par-text-li"><u>Frontend</u></p>
 						<ul class="center par-text-li">
@@ -215,6 +215,7 @@ Projects = Vue.component('projects', {
 					 </p>
 					<br />
 					<div class="center">
+						<a class="project-chip" href="https://white-crema.netlify.app/" target="_blank"><img src="/media/wc_01.webp"></img></a>
 						<a class="project-chip" href="https://howto-story.herokuapp.com/" target="_blank"><img src="/media/hts-shot.webp"></img></a>
 						<a class="project-chip" href="https://hulagway.site/" target="_blank"><img src="/media/hulagway.webp"></img></a>
 						<a class="project-chip" href="https://ncheon-apparel.netlify.app/" target="_blank"><img src="/media/ncheon-main.webp"></img></a>
@@ -250,6 +251,7 @@ Projects = Vue.component('projects', {
 					 </p>
 					<br />
 					<div class="center">
+						<a class="project-chip" href="https://white-crema.netlify.app/" target="_blank"><img src="/media/wc_01.webp"></img></a>
 						<a class="project-chip" href="https://howto-story.herokuapp.com/" target="_blank"><img src="/media/hts-shot.webp" class="responsive-img"></img></a>
 						<a class="project-chip" href="https://hulagway.site/" target="_blank"><img src="/media/hulagway.webp" class="responsive-img"></img></a>
 						<a class="project-chip" href="https://ncheon-apparel.netlify.app/" target="_blank"><img src="/media/ncheon-main.webp"></img></a>
