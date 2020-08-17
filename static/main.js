@@ -215,29 +215,29 @@ Projects = Vue.component('projects', {
 					 </p>
 					<br />
 					<div class="center">
-						<a class="project-chip" href="https://white-crema.netlify.app/" target="_blank"><img src="/media/wc_01.webp"></img></a>
-						<a class="project-chip" href="https://howto-story.herokuapp.com/" target="_blank"><img src="/media/hts-shot.webp"></img></a>
-						<a class="project-chip" href="https://hulagway.site/" target="_blank"><img src="/media/hulagway.webp"></img></a>
-						<a class="project-chip" href="https://ncheon-apparel.netlify.app/" target="_blank"><img src="/media/ncheon-main.webp"></img></a>
-						<a class="project-chip" href="https://ncheon-apparel.herokuapp.com/" target="_blank"><img src="/media/ncheon-admin.webp"></img></a>
-						<a class="project-chip" href="https://coffee-domus-meae.netlify.app/" target="_blank"><img src="/media/coffee-domus.webp"></img></a>
-						<a class="project-chip" href="https://storeisopen-backend.herokuapp.com/" target="_blank"><img src="/media/storeopen.webp"></img></a>
-						<a class="project-chip" href="https://demver-barbers.netlify.app/" target="_blank"><img src="/media/demver-barbers.webp"></img></a>
-						<a class="project-chip" href="https://zweddings.netlify.app/" target="_blank"><img src="/media/zwed-shot.webp"></img></a>
-						<a class="project-chip" href="https://pamaligya.netlify.app/" target="_blank"><img src="/media/pamaligya-shot.webp"></img></a>
-						<a class="project-chip" href="https://laagan-travels.netlify.app/" target="_blank"><img src="/media/travel-shot.webp"></img></a>
-						<a class="project-chip" href="https://wolfin-techs.firebaseapp.com/" target="_blank"><img src="/media/wolfin-shot.webp"></img></a>
-						<a class="project-chip" href="https://musicorum-headphones.netlify.app/" target="_blank"><img src="/media/musicorum.webp"></img></a>
-						<a class="project-chip" href="https://executive-desk.herokuapp.com/" target="_blank"><img src="/media/exec-1.webp"></img></a>
-						<a class="project-chip" href="https://eruption-explorer.herokuapp.com/" target="_blank"><img src="/media/erupt-xplor.webp"></img></a>
-						<a class="project-chip" href="https://orange-dash.herokuapp.com/" target="_blank"><img src="/media/ora-1.webp"></img></a>
-						<a class="project-chip" href="https://partner-survey.herokuapp.com/" target="_blank"><img src="/media/partners_interact.webp"></img></a>
-						<a class="project-chip" href="https://stock-dash-flat-ver.herokuapp.com/" target="_blank"><img src="/media/stock_dash_shot.webp"></img></a>
-						<a class="project-chip" href="https://sunshine-dash-app.herokuapp.com/" target="_blank"><img src="/media/sunshine-dash.webp"></img></a>
-						<a class="project-chip" href="https://yt-data-view.herokuapp.com/" target="_blank"><img src="/media/yt1.webp"></img></a>
-						<a class="project-chip" href="https://covid19-dashboard.herokuapp.com/home" target="_blank"><img src="/media/covid-shot.webp"></img></a>
-						<a class="project-chip" href="https://phl-retail-commodity.herokuapp.com/" target="_blank"><img src="/media/commodity.webp"></img></a>
-						<a class="project-chip" href="https://airbnb-tokyo.herokuapp.com/" target="_blank"><img src="/media/airbnb_shot.webp"></img></a>	
+						<a class="project-chip" href="https://white-crema.netlify.app/" target="_blank"><img src="/media/wc_01.png"></img></a>
+						<a class="project-chip" href="https://howto-story.herokuapp.com/" target="_blank"><img src="/media/hts-shot.png"></img></a>
+						<a class="project-chip" href="https://hulagway.site/" target="_blank"><img src="/media/hulagway.png"></img></a>
+						<a class="project-chip" href="https://ncheon-apparel.netlify.app/" target="_blank"><img src="/media/ncheon-main.png"></img></a>
+						<a class="project-chip" href="https://ncheon-apparel.herokuapp.com/" target="_blank"><img src="/media/ncheon-admin.png"></img></a>
+						<a class="project-chip" href="https://coffee-domus-meae.netlify.app/" target="_blank"><img src="/media/coffee-domus.png"></img></a>
+						<a class="project-chip" href="https://storeisopen-backend.herokuapp.com/" target="_blank"><img src="/media/storeopen.png"></img></a>
+						<a class="project-chip" href="https://demver-barbers.netlify.app/" target="_blank"><img src="/media/demver-barbers.png"></img></a>
+						<a class="project-chip" href="https://zweddings.netlify.app/" target="_blank"><img src="/media/zwed-shot.png"></img></a>
+						<a class="project-chip" href="https://pamaligya.netlify.app/" target="_blank"><img src="/media/pamaligya-shot.png"></img></a>
+						<a class="project-chip" href="https://laagan-travels.netlify.app/" target="_blank"><img src="/media/travel-shot.png"></img></a>
+						<a class="project-chip" href="https://wolfin-techs.firebaseapp.com/" target="_blank"><img src="/media/wolfin-shot.png"></img></a>
+						<a class="project-chip" href="https://musicorum-headphones.netlify.app/" target="_blank"><img src="/media/musicorum.png"></img></a>
+						<a class="project-chip" href="https://executive-desk.herokuapp.com/" target="_blank"><img src="/media/exec-1.png"></img></a>
+						<a class="project-chip" href="https://eruption-explorer.herokuapp.com/" target="_blank"><img src="/media/erupt-xplor.png"></img></a>
+						<a class="project-chip" href="https://orange-dash.herokuapp.com/" target="_blank"><img src="/media/ora-1.png"></img></a>
+						<a class="project-chip" href="https://partner-survey.herokuapp.com/" target="_blank"><img src="/media/partners_interact.png"></img></a>
+						<a class="project-chip" href="https://stock-dash-flat-ver.herokuapp.com/" target="_blank"><img src="/media/stock_dash_shot.png"></img></a>
+						<a class="project-chip" href="https://sunshine-dash-app.herokuapp.com/" target="_blank"><img src="/media/sunshine-dash.png"></img></a>
+						<a class="project-chip" href="https://yt-data-view.herokuapp.com/" target="_blank"><img src="/media/yt1.png"></img></a>
+						<a class="project-chip" href="https://covid19-dashboard.herokuapp.com/home" target="_blank"><img src="/media/covid-shot.png"></img></a>
+						<a class="project-chip" href="https://phl-retail-commodity.herokuapp.com/" target="_blank"><img src="/media/commodity.png"></img></a>
+						<a class="project-chip" href="https://airbnb-tokyo.herokuapp.com/" target="_blank"><img src="/media/airbnb_shot.png"></img></a>	
 					</div>
 				</div>
 				<div class="col s10 offset-s1 hide-on-med-and-up">
@@ -251,29 +251,29 @@ Projects = Vue.component('projects', {
 					 </p>
 					<br />
 					<div class="center">
-						<a class="project-chip" href="https://white-crema.netlify.app/" target="_blank"><img src="/media/wc_01.webp"></img></a>
-						<a class="project-chip" href="https://howto-story.herokuapp.com/" target="_blank"><img src="/media/hts-shot.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://hulagway.site/" target="_blank"><img src="/media/hulagway.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://ncheon-apparel.netlify.app/" target="_blank"><img src="/media/ncheon-main.webp"></img></a>
-						<a class="project-chip" href="https://ncheon-apparel.herokuapp.com/" target="_blank"><img src="/media/ncheon-admin.webp"></img></a>
-						<a class="project-chip" href="https://coffee-domus-meae.netlify.app/" target="_blank"><img src="/media/coffee-domus.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://storeisopen-backend.herokuapp.com/" target="_blank"><img src="/media/storeopen.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://demver-barbers.netlify.app/" target="_blank"><img src="/media/demver-barbers.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://zweddings.netlify.app/" target="_blank"><img src="/media/zwed-shot.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://pamaligya.netlify.app/" target="_blank"><img src="/media/pamaligya-shot.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://laagan-travels.netlify.app/" target="_blank"><img src="/media/travel-shot.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://wolfin-techs.firebaseapp.com/" target="_blank"><img src="/media/wolfin-shot.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://musicorum-headphones.netlify.app/" target="_blank"><img src="/media/musicorum.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://executive-desk.herokuapp.com/" target="_blank"><img src="/media/exec-1.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://eruption-explorer.herokuapp.com/" target="_blank"><img src="/media/erupt-xplor.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://orange-dash.herokuapp.com/" target="_blank"><img src="/media/ora-1.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://partner-survey.herokuapp.com/" target="_blank"><img src="/media/partners_interact.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://stock-dash-flat-ver.herokuapp.com/" target="_blank"><img src="/media/stock_dash_shot.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://sunshine-dash-app.herokuapp.com/" target="_blank"><img src="/media/sunshine-dash.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://yt-data-view.herokuapp.com/" target="_blank"><img src="/media/yt1.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://covid19-dashboard.herokuapp.com/home" target="_blank"><img src="/media/covid-shot.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://phl-retail-commodity.herokuapp.com/" target="_blank"><img src="/media/commodity.webp" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://airbnb-tokyo.herokuapp.com/" target="_blank"><img src="/media/airbnb_shot.webp" class="responsive-img"></img></a>	
+						<a class="project-chip" href="https://white-crema.netlify.app/" target="_blank"><img src="/media/wc_01.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://howto-story.herokuapp.com/" target="_blank"><img src="/media/hts-shot.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://hulagway.site/" target="_blank"><img src="/media/hulagway.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://ncheon-apparel.netlify.app/" target="_blank"><img src="/media/ncheon-main.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://ncheon-apparel.herokuapp.com/" target="_blank"><img src="/media/ncheon-admin.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://coffee-domus-meae.netlify.app/" target="_blank"><img src="/media/coffee-domus.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://storeisopen-backend.herokuapp.com/" target="_blank"><img src="/media/storeopen.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://demver-barbers.netlify.app/" target="_blank"><img src="/media/demver-barbers.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://zweddings.netlify.app/" target="_blank"><img src="/media/zwed-shot.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://pamaligya.netlify.app/" target="_blank"><img src="/media/pamaligya-shot.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://laagan-travels.netlify.app/" target="_blank"><img src="/media/travel-shot.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://wolfin-techs.firebaseapp.com/" target="_blank"><img src="/media/wolfin-shot.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://musicorum-headphones.netlify.app/" target="_blank"><img src="/media/musicorum.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://executive-desk.herokuapp.com/" target="_blank"><img src="/media/exec-1.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://eruption-explorer.herokuapp.com/" target="_blank"><img src="/media/erupt-xplor.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://orange-dash.herokuapp.com/" target="_blank"><img src="/media/ora-1.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://partner-survey.herokuapp.com/" target="_blank"><img src="/media/partners_interact.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://stock-dash-flat-ver.herokuapp.com/" target="_blank"><img src="/media/stock_dash_shot.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://sunshine-dash-app.herokuapp.com/" target="_blank"><img src="/media/sunshine-dash.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://yt-data-view.herokuapp.com/" target="_blank"><img src="/media/yt1.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://covid19-dashboard.herokuapp.com/home" target="_blank"><img src="/media/covid-shot.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://phl-retail-commodity.herokuapp.com/" target="_blank"><img src="/media/commodity.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://airbnb-tokyo.herokuapp.com/" target="_blank"><img src="/media/airbnb_shot.png" class="responsive-img"></img></a>	
 					</div>
 				</div>
 			</div>
