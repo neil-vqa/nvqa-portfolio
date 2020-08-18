@@ -125,6 +125,7 @@ Skills = Vue.component('skills', {
 						<ul class="center par-text">
 							<li>Materialize</li>
 							<li>Bootstrap</li>
+							<li>Tailwind</li>
 							<li>Vue.js components</li>
 						</ul>
 						<p class="center par-text"><u>Tech Stack</u></p>
@@ -177,6 +178,7 @@ Skills = Vue.component('skills', {
 						<ul class="center par-text-li">
 							<li>Materialize</li>
 							<li>Bootstrap</li>
+							<li>Tailwind</li>
 							<li>Vue.js components</li>
 						</ul>
 						<p class="center par-text-li"><u>Tech Stack</u></p>
