@@ -41,7 +41,7 @@ About = Vue.component('about', {
 					</p><br />
 					<p class="par-text">
 						I am currently a full stack web developer. I do my projects with <a class="text-highlight light-blue lighten-3">Python</a> as backend, and
-						<a class="text-highlight light-blue lighten-3">Vue.js components</a> on the frontend. (+ Materialize/Bootstrap)
+						<a class="text-highlight light-blue lighten-3">Vue.js components</a> on the frontend. (+ Materialize/Bootstrap/Tailwind)
 					</p><br />
 					<p class="par-text">
 						I am a cofounder of <a href="https://hulagway.site/" target="_blank" class="text-highlight light-blue lighten-3">Hulagway.site</a>, 
@@ -68,7 +68,7 @@ About = Vue.component('about', {
 					</p><br />
 					<p class="par-text-sm">
 						I am currently a full stack web developer. I do my projects with <a class="text-highlight light-blue lighten-3">Python</a> as backend, and
-						<a class="text-highlight light-blue lighten-3">Vue.js components</a> on the frontend. (+ Materialize/Bootstrap)
+						<a class="text-highlight light-blue lighten-3">Vue.js components</a> on the frontend. (+ Materialize/Bootstrap/Tailwind)
 					</p><br />
 					<p class="par-text-sm">
 						I am a cofounder of <a href="https://hulagway.site/" target="_blank" class="text-highlight light-blue lighten-3">Hulagway.site</a>, 
@@ -114,12 +114,11 @@ Skills = Vue.component('skills', {
 						<ul class="center par-text">
 							<li>Django</li>
 							<li>Django REST</li>
-							<li>Flask</li>
+							<li>Strapi CMS</li>
 							<li>NGINX </li>
 							<li>Linode</li>
 							<li>Netlify</li>
 							<li>Heroku</li>
-							<li>Strapi CMS</li>
 						</ul>
 						<p class="center par-text"><u>Frontend</u></p>
 						<ul class="center par-text">
@@ -167,12 +166,11 @@ Skills = Vue.component('skills', {
 						<ul class="center par-text-li">
 							<li>Django</li>
 							<li>Django REST</li>
-							<li>Flask</li>
+							<li>Strapi CMS</li>
 							<li>NGINX </li>
 							<li>Linode</li>
 							<li>Netlify</li>
 							<li>Heroku</li>
-							<li>Strapi CMS</li>
 						</ul>
 						<p class="center par-text-li"><u>Frontend</u></p>
 						<ul class="center par-text-li">
@@ -217,11 +215,11 @@ Projects = Vue.component('projects', {
 					 </p>
 					<br />
 					<div class="center">
+						<a class="project-chip" href="https://ncheon-apparel.netlify.app/" target="_blank"><img src="/media/ncheon-main.png"></img></a>
+						<a class="project-chip" href="https://ncheon-apparel.herokuapp.com/" target="_blank"><img src="/media/ncheon-admin.png"></img></a>
 						<a class="project-chip" href="https://white-crema.netlify.app/" target="_blank"><img src="/media/wc_01.png"></img></a>
 						<a class="project-chip" href="https://howto-story.herokuapp.com/" target="_blank"><img src="/media/hts-shot.png"></img></a>
 						<a class="project-chip" href="https://hulagway.site/" target="_blank"><img src="/media/hulagway.png"></img></a>
-						<a class="project-chip" href="https://ncheon-apparel.netlify.app/" target="_blank"><img src="/media/ncheon-main.png"></img></a>
-						<a class="project-chip" href="https://ncheon-apparel.herokuapp.com/" target="_blank"><img src="/media/ncheon-admin.png"></img></a>
 						<a class="project-chip" href="https://coffee-domus-meae.netlify.app/" target="_blank"><img src="/media/coffee-domus.png"></img></a>
 						<a class="project-chip" href="https://storeisopen-backend.herokuapp.com/" target="_blank"><img src="/media/storeopen.png"></img></a>
 						<a class="project-chip" href="https://demver-barbers.netlify.app/" target="_blank"><img src="/media/demver-barbers.png"></img></a>
@@ -253,11 +251,11 @@ Projects = Vue.component('projects', {
 					 </p>
 					<br />
 					<div class="center">
+						<a class="project-chip" href="https://ncheon-apparel.netlify.app/" target="_blank"><img src="/media/ncheon-main.png" class="responsive-img"></img></a>
+						<a class="project-chip" href="https://ncheon-apparel.herokuapp.com/" target="_blank"><img src="/media/ncheon-admin.png" class="responsive-img"></img></a>
 						<a class="project-chip" href="https://white-crema.netlify.app/" target="_blank"><img src="/media/wc_01.png" class="responsive-img"></img></a>
 						<a class="project-chip" href="https://howto-story.herokuapp.com/" target="_blank"><img src="/media/hts-shot.png" class="responsive-img"></img></a>
 						<a class="project-chip" href="https://hulagway.site/" target="_blank"><img src="/media/hulagway.png" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://ncheon-apparel.netlify.app/" target="_blank"><img src="/media/ncheon-main.png" class="responsive-img"></img></a>
-						<a class="project-chip" href="https://ncheon-apparel.herokuapp.com/" target="_blank"><img src="/media/ncheon-admin.png" class="responsive-img"></img></a>
 						<a class="project-chip" href="https://coffee-domus-meae.netlify.app/" target="_blank"><img src="/media/coffee-domus.png" class="responsive-img"></img></a>
 						<a class="project-chip" href="https://storeisopen-backend.herokuapp.com/" target="_blank"><img src="/media/storeopen.png" class="responsive-img"></img></a>
 						<a class="project-chip" href="https://demver-barbers.netlify.app/" target="_blank"><img src="/media/demver-barbers.png" class="responsive-img"></img></a>
@@ -285,6 +283,35 @@ Projects = Vue.component('projects', {
 
 Contact = Vue.component('contact', {
 	delimiters: ["[[","]]"],
+	data() {
+		return {
+			name: '',
+			email: '',
+			text: '',
+		}
+	},
+	methods: {
+		sendmail() {
+			this.waitAlert();
+		
+			axios.post('https://formspree.io/mbjzzwjy', {
+				"name": this.name,
+				"email": this.email,
+				"text": this.text,
+			}).then(response => {
+				this.name= '',
+				this.email= '',
+				this.text= '',
+				this.successAlert();
+			});
+		},
+		waitAlert() {
+			this.$swal('Please wait','Sending your email','info', {button: "..."})
+		},
+		successAlert() {
+			this.$swal('Your email has been sent','I will contact you as soon as possible. Thanks!','success')
+		},
+	},
 	template: `
 		<div class="section" id="contact">
 			<div class="row section">
@@ -295,20 +322,20 @@ Contact = Vue.component('contact', {
 						<h5 class="center text-highlight">Email</h5>
 						<div>
 							<p class="card-title par-text">Email to nvqa.business@gmail.com</p>
-							<form name='Contact-Me-Form' class='section' action="https://formspree.io/mbjzzwjy" method="POST">
+							<form name='Contact-Me-Form' class='section' v-on:submit.prevent="sendmail">
 								<div class="input-field">
 								  <i class="material-icons prefix grey-text text-darken-1">person</i>
-								  <input type="text" id="name" name="Name" required>
+								  <input v-model="name" type="text" id="name" name="Name" required>
 								  <label for="name">Your Name</label>
 								</div>
 								<div class="input-field">
 								  <i class="material-icons prefix grey-text text-darken-1">email</i>
-								  <input type="email" id="email" name="Email" class="validate" required>
+								  <input v-model="email" type="email" id="email" name="Email" class="validate" required>
 								  <label for="email">Your Email</label>
 								</div>
 								<div class="input-field">
 								  <i class="material-icons prefix grey-text text-darken-1">note_add</i>
-								  <textarea id="textarea1" class="materialize-textarea" name="Message" required></textarea>
+								  <textarea v-model="text" id="textarea1" class="materialize-textarea" name="Message" required></textarea>
 								  <label for="textarea1">Your concerns...</label>
 								</div>
 								<div class="input-field center">
@@ -340,20 +367,20 @@ Contact = Vue.component('contact', {
 						<h6 class="center text-highlight">Email</h6>
 						<div>
 							<p class="card-title par-text-sm">To: nvqa.business@gmail.com</p>
-							<form name='Contact-Me-Form' class='section' action="https://formspree.io/mbjzzwjy" method="POST">
+							<form name='Contact-Me-Form' class='section' v-on:submit.prevent="sendmail">
 								<div class="input-field">
 								  <i class="material-icons prefix grey-text text-darken-1">person</i>
-								  <input type="text" id="name" name="Name" required>
+								  <input v-model="name" type="text" id="name" name="Name" required>
 								  <label for="name">Your Name</label>
 								</div>
 								<div class="input-field">
 								  <i class="material-icons prefix grey-text text-darken-1">email</i>
-								  <input type="email" id="email" name="Email" class="validate" required>
+								  <input v-model="email" type="email" id="email" name="Email" class="validate" required>
 								  <label for="email">Your Email</label>
 								</div>
 								<div class="input-field">
 								  <i class="material-icons prefix grey-text text-darken-1">note_add</i>
-								  <textarea id="textarea1" class="materialize-textarea" name="Message" required></textarea>
+								  <textarea v-model="text" id="textarea1" class="materialize-textarea" name="Message" required></textarea>
 								  <label for="textarea1">Your concerns...</label>
 								</div>
 								<div class="input-field center">
