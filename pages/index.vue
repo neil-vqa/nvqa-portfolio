@@ -3,9 +3,14 @@
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-10">
 			<div class="col-span-1 lg:col-span-2">
 				<NuxtLink to="/">
-					<div class="bg-blue-600 rounded-lg shadow-xl py-5 px-8 text-white hover:bg-blue-700">
-						<h1 class="text-3xl sm:text-6xl">NEIL VAN ALIÑO</h1>
-						<h2 class="text-xl sm:text-4xl">full stack web developer</h2>
+					<div class="bg-blue-600 rounded-lg shadow-xl py-5 px-8 text-white hover:bg-blue-700 flex">
+						<div class="flex-auto">
+							<h1 class="text-3xl sm:text-6xl">NEIL VAN ALIÑO</h1>
+							<h2 class="text-xl sm:text-4xl">full stack web developer</h2>
+						</div>
+						<div class="flex-auto justify-center items-center hidden xl:block">
+							<img src="/avatar.jpg" class="h-40 rounded-full"/>
+						</div>
 					</div>
 				</NuxtLink>
 			</div>
@@ -33,6 +38,9 @@
 				<NuxtLink to="/projects">
 					<div class="bg-blue-600 rounded-lg shadow-xl py-5 px-8 text-white hover:bg-blue-700">
 						<h1 class="text-4xl">Projects</h1>
+						<p class="text-md">
+							View client and personal projects.
+						</p>
 					</div>
 				</NuxtLink>
 			</div>
