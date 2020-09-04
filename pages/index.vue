@@ -8,7 +8,7 @@
 							<h1 class="text-3xl sm:text-6xl">NEIL VAN ALIÑO</h1>
 							<h2 class="text-xl sm:text-4xl">full stack web developer</h2>
 						</div>
-						<div class="flex-auto justify-center items-center hidden xl:block">
+						<div class="flex-auto justify-center items-center hidden">
 							<img src="/avatar.jpg" class="h-40 rounded-full"/>
 						</div>
 					</div>
