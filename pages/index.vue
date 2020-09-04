@@ -1,8 +1,51 @@
 <template>
-	<div class="flex flex-col justify-center items-center min-h-screen">
-		<div class="text-center">
-			<h1 class="text-4xl sm:text-6xl">NEIL VAN ALIÑO</h1>
-			<h2 class="text-xl sm:text-4xl">full stack web developer</h2>
+	<div class="lg:p-10">
+		<div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-10">
+			<div class="col-span-1 lg:col-span-2">
+				<NuxtLink to="/">
+					<div class="bg-blue-600 rounded-lg shadow-xl py-5 px-8 text-white hover:bg-blue-700">
+						<h1 class="text-3xl sm:text-6xl">NEIL VAN ALIÑO</h1>
+						<h2 class="text-xl sm:text-4xl">full stack web developer</h2>
+					</div>
+				</NuxtLink>
+			</div>
+			<div class="col-span-1">
+				<NuxtLink to="/about">
+					<div class="bg-blue-600 rounded-lg shadow-xl py-5 px-8 text-white hover:bg-blue-700">
+						<h1 class="text-4xl">About Me</h1>
+						<p class="text-md">
+							I am a Web Developer + DataViz Specialist who is also a Mechanical Engineer...
+						</p>
+					</div>
+				</NuxtLink>
+			</div>
+			<div class="col-span-1">
+				<NuxtLink to="/skills">
+					<div class="bg-blue-600 rounded-lg shadow-xl py-5 px-8 text-white hover:bg-blue-700">
+						<h1 class="text-4xl">Skills</h1>
+						<p class="text-md">
+							Django, Vue, Tailwind...
+						</p>
+					</div>
+				</NuxtLink>
+			</div>
+			<div class="col-span-1">
+				<NuxtLink to="/projects">
+					<div class="bg-blue-600 rounded-lg shadow-xl py-5 px-8 text-white hover:bg-blue-700">
+						<h1 class="text-4xl">Projects</h1>
+					</div>
+				</NuxtLink>
+			</div>
+			<div class="col-span-1">
+				<NuxtLink to="/contact">
+					<div class="bg-blue-600 rounded-lg shadow-xl py-5 px-8 text-white hover:bg-blue-700">
+						<h1 class="text-4xl">Contact</h1>
+						<p class="text-md">
+							Email me or check my profiles.
+						</p>
+					</div>
+				</NuxtLink>
+			</div>
 		</div>
 	</div>
 </template>
