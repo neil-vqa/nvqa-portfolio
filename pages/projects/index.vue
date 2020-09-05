@@ -41,6 +41,9 @@
 					</div>
 				</div>
 			</div>
+			
+			<div class="text-center text-red-500" v-if="has_error">An error occured. Please refresh the page.</div>
+			
 		</div>
 	</div>
 </template>
@@ -63,14 +66,21 @@ export default {
 		return {
 			projects: [],
 			loader: true,
+			has_error: false,
 		}
 	},
 	methods: {
 		fetch() {
-			axios.get('https://white-crema.herokuapp.com/projects').
-				then(response => {
+			axios.get('https://white-crema.herokuapp.com/projects')
+				.then(response => {
 					this.projects = response.data;
 					this.loader = false
+				})
+				.catch(error => {
+					if (error.response) {
+						this.loader = false;
+						this.has_error = true;
+					}
 				});
 		}
 	},

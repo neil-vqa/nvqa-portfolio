@@ -77,6 +77,7 @@ export default {
 	},
 	methods: {
 		sendmail() {
+			this.done = false,
 			this.disabler = true;
 			
 			axios.post('https://formspree.io/mbjzzwjy', {
@@ -89,6 +90,11 @@ export default {
 				this.message = '',
 				this.done = true,
 				this.disabler = false
+			}).catch(error => {
+				if (error.response) {
+					this.disabler = false
+					alert('There was an error. Please try again.');
+				}
 			});
 		},
 	},
