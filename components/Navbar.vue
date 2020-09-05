@@ -37,3 +37,14 @@
 export default {}
 </script>
 
+
+<style type="text/css" media="screen">
+.nuxt-link-exact-active {
+	border-bottom: #2b6cb0 5px solid;
+}
+</style>
+
+
+
+
+
