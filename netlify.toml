@@ -1,3 +1,0 @@
-[context.blog]
-	command = "python build.py"
-	publish = "build"
