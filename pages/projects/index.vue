@@ -2,7 +2,7 @@
 	<div class="flex flex-col justify-center items-center h-auto pb-10">
 		<h1 class="text-3xl sm:text-4xl my-10 text-center">Client and personal projects</h1>
 		<div class="w-full sm:w-9/12">
-			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+			<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
 				<div class="bg-blue-600 rounded-md shadow-xl text-white overflow-hidden" v-for="project in projects" :key="project.id">
 					<div class="mb-5 flex justify-center">
 						<img :src="project.pic.url" class="w-full"/>
@@ -15,7 +15,7 @@
 				</div>
 			</div>
 			
-			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" v-if="loader">
+			<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8" v-if="loader">
 				<div class="bg-blue-600 rounded-md shadow-xl overflow-hidden animate-pulse">
 					<div class="mb-5 bg-gray-400 h-40 w-full"></div>
 					<div class="p-5">
@@ -33,6 +33,14 @@
 					</div>
 				</div>
 				<div class="bg-blue-600 rounded-md shadow-xl overflow-hidden animate-pulse">
+					<div class="mb-5 bg-gray-400 h-40 w-full"></div>
+					<div class="p-5">
+						<p class="bg-gray-400 h-8 w-full"></p>
+						<p class="bg-gray-400 h-6 w-2/3 mt-5"></p>
+						<p class="bg-gray-400 h-6 w-3/4 mt-3"></p>
+					</div>
+				</div>
+				<div class="bg-blue-600 rounded-md shadow-xl overflow-hidden animate-pulse xl:hidden">
 					<div class="mb-5 bg-gray-400 h-40 w-full"></div>
 					<div class="p-5">
 						<p class="bg-gray-400 h-8 w-full"></p>

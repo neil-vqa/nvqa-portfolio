@@ -9,7 +9,10 @@ module.exports = {
   	extend: {
     	fontFamily: {
     		base: ['Ubuntu'],
-    	}
+    	},
+    	maxWidth: {
+    		'screen-2xl': '1440px'
+    	},
     },
   },
   variants: {},
