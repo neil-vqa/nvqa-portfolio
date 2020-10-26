@@ -44,7 +44,7 @@ export default {
 	},
 	data() {
 		return {
-			webSkills: ['Django','Django REST','Strapi CMS','NGINX','Linode','Netlify','Heroku','Materialize',
+			webSkills: ['Django','Django REST','Strapi CMS','Ghost CMS','NGINX','Linode','Netlify','Heroku','Materialize',
 						'Bootstrap','Tailwind','Vue.js','NuxtJS','Django + Vue','Strapi + Nuxt'],
 			dataSkills: ['Plotly','Matplotlib','Dash','Streamlit','Mapbox','Pandas','Numpy','Jupyter'],
 			otherSkills: ['Git','Photoshop','Virtual Assistance','Public Speaking',],

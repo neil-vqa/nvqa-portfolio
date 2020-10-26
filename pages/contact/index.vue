@@ -22,7 +22,8 @@
 							<label class="block uppercase tracking-wide text-white text-xs font-bold mb-2" for="grid-first-message">
 							Message
 							</label>
-							<input v-model="message" required class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:border-gray-400 focus:bg-white" id="grid-first-message" type="text">
+							<textarea v-model="message" required class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:border-gray-400 focus:bg-white" id="grid-first-message" type="text">
+							</textarea>
 						</div>
 						<div class="w-full px-3">
 							<button disable="disabler" class="shadow bg-blue-800 hover:bg-blue-900 focus:shadow-outline focus:outline-none text-white font-bold py-3 px-5 rounded" type="submit">
