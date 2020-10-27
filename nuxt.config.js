@@ -15,11 +15,14 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Neil Van Alino | Web Development Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'Learn about Neil Van Alino: his skills, projects, and more.' },
+      { hid: 'og:title', name: 'og:title', content: 'Neil Van Alino | Web Development Portfolio' },
+      { hid: 'og:description', name: 'og:description', content: 'Learn about Neil Van Alino: his skills, projects, and more.' },
+      { hid: 'og:image', name: 'og:image', content: '/coding_isometric.png' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
