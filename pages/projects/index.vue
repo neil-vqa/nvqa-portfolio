@@ -77,7 +77,12 @@ export default {
 			has_error: false,
 		}
 	},
-	methods: {
+	async fetch() {
+		const response = await axios.get('https://white-crema.herokuapp.com/projects');
+		this.projects = response.data;
+		this.loader = false;
+	},
+/**	methods: {
 		fetch() {
 			axios.get('https://white-crema.herokuapp.com/projects')
 				.then(response => {
@@ -92,9 +97,9 @@ export default {
 				});
 		}
 	},
-	created: function() {
+/**	created: function() {
 		this.fetch();
-	},
+	},**/
 }
 </script>
 
