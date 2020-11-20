@@ -3,3 +3,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.about-card {
+	@apply bg-blue-600 rounded-lg shadow-xl py-8 px-8 text-white text-lg
+}

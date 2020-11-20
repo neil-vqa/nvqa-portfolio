@@ -19,7 +19,7 @@
 					<div class="bg-blue-600 rounded-lg shadow-xl py-5 px-8 text-white hover:bg-blue-700">
 						<h1 class="text-4xl">About Me</h1>
 						<p class="text-md">
-							I am a Web Developer + DataViz Specialist who is also a Mechanical Engineer...
+							I am a Web Developer + Mechanical Engineer...international volunteer...
 						</p>
 					</div>
 				</NuxtLink>
@@ -29,7 +29,7 @@
 					<div class="bg-blue-600 rounded-lg shadow-xl py-5 px-8 text-white hover:bg-blue-700">
 						<h1 class="text-4xl">Skills</h1>
 						<p class="text-md">
-							Django, Vue, Tailwind...
+							Django, NuxtJS, Tailwind...
 						</p>
 					</div>
 				</NuxtLink>

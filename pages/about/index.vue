@@ -1,22 +1,27 @@
 <template>
 	<div class="flex flex-col justify-center items-center h-auto pb-10">
 		<h1 class="text-3xl sm:text-4xl my-10 text-center">An introduction about me</h1>
-		<div class="w-full sm:w-9/12 bg-blue-600 rounded-lg shadow-xl py-8 px-8 lg:py-12 lg:px-16 text-white">
-			<p class="text-base sm:text-xl lg:text-2xl mb-5">
-				I am a Web Developer + DataViz Specialist who is also a Mechanical Engineer from the Philippines. The critical, disciplined, and holistic mindset molded by engineering has lead me to venture into data visualization and web development. 
-			</p>
-			<p class="text-base sm:text-xl lg:text-2xl mb-5">
-				For the past 2 years after graduating, I have worked partly (and mixedly) as a freelance data visualizer, engineering consultant, and CAD modeler. I am a team player by nature and also reliable and effective in working independently. 
-			</p>
-			<p class="text-base sm:text-xl lg:text-2xl mb-5">
-				 I am currently a full stack web developer. I do my projects with Python as backend, and Vue.js components on the frontend. (+ Materialize or Bootstrap or Tailwind) 
-			</p>
-			<p class="text-base sm:text-xl lg:text-2xl mb-5">
-				I am a cofounder of Hulagway.site, a website providing free stock photos, and a platform for local photography newcomers to showcase their skill and be discovered. I am also acting as the webmaster and lead web developer of the site. 
-			</p>
-			<p class="text-base sm:text-xl lg:text-2xl mb-5">
-				Most importantly, I am an international volunteer helping all sorts of people to learn and benefit from God's Word. 
-			</p>
+		<div class="w-full sm:w-9/12 grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 xl:gap-12">
+			<div class="about-card lg:py-8 lg:px-10">
+				<p>
+					I am a Web Developer + Mechanical Engineer from the Philippines. The <strong class="text-xl">critical, disciplined, and holistic mindset</strong> molded by engineering has lead me to venture into data visualization and web development. 
+				</p>
+			</div>
+			<div class="about-card lg:py-8 lg:px-10">
+				<p>
+					For the past 2 years after graduating, I have worked as a freelance data visualizer, engineering consultant, and CAD modeler. I am a <strong class="text-xl">team player</strong> by nature and also reliable and effective in working independently. 
+				</p>
+			</div>
+			<div class="about-card lg:py-8 lg:px-10">
+				<p>
+					I am currently a full stack web developer. I do projects with <strong class="text-xl">Python as backend, serverless, and Vue.js/NuxtJS</strong> frontend projects. 
+				</p>
+			</div>
+			<div class="about-card lg:py-8 lg:px-10">
+				<p>
+					Most importantly, I am an <strong class="text-xl">international volunteer</strong> helping all sorts of people to learn and benefit from <strong class="text-xl">God's Word.</strong>
+				</p>
+			</div>
 		</div>
 	</div>
 </template>
