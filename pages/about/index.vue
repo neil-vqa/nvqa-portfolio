@@ -9,7 +9,7 @@
 			</div>
 			<div class="about-card lg:py-8 lg:px-10">
 				<p>
-					For the past 2 years after graduating, I have worked as a freelance data visualizer, engineering consultant, and CAD modeler. I am a <strong class="text-xl">team player</strong> by nature and also reliable and effective in working independently. 
+					For the past 2 years after graduating and passing the engineering licensure exam, I have worked as a freelance data visualizer, and CAD modeler. I am a <strong class="text-xl">team player</strong> by nature and also reliable and effective in working independently. 
 				</p>
 			</div>
 			<div class="about-card lg:py-8 lg:px-10">
