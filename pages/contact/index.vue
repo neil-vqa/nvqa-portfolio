@@ -38,13 +38,13 @@
 					<h2 class="text-2xl mb-8 sm:text-center">Profiles</h2>
 					<div class="flex flex-col items-center">
 						<a href="https://github.com/neil-vqa" target="_blank" class="tracking-wide text-gray-700 text-md font-bold">
-							<div class="bg-gray-200 hover:bg-gray-300 py-6 px-8 my-3 border rounded-lg">GitHub</div>
+							<div class="bg-gray-200 hover:bg-gray-800 hover:text-white py-6 px-8 my-3 border rounded-lg">GitHub</div>
 						</a>
 						<a href="https://www.upwork.com/o/profiles/users/~0169060d088879731f/?s=1110580755107926016" target="_blank" class="tracking-wide text-gray-700 text-md font-bold">
-							<div class="bg-gray-200 hover:bg-gray-300 py-6 px-8 my-3 border rounded-lg">Upwork</div>
+							<div class="bg-gray-200 hover:bg-gray-800 hover:text-white py-6 px-8 my-3 border rounded-lg">Upwork</div>
 						</a>
 						<a href="https://www.linkedin.com/in/neilvan-qa/" target="_blank" class="tracking-wide text-gray-700 text-md font-bold">
-							<div class="bg-gray-200 hover:bg-gray-300 py-6 px-8 my-3 border rounded-lg">LinkedIn</div>
+							<div class="bg-gray-200 hover:bg-gray-800 hover:text-white py-6 px-8 my-3 border rounded-lg">LinkedIn</div>
 						</a>
 					</div>
 				</div>
