@@ -1,5 +1,5 @@
 <template>
-	<div class="lg:p-10">
+	<div class="lg:px-10">
 	<div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
 	
 		<!-- cards -->
@@ -8,7 +8,7 @@
 				<div class="px-8 text-blue-600 flex">
 					<div class="text-center lg:text-left w-full">
 						<h1 class="text-3xl sm:text-5xl tracking-widest">NEIL VAN ALIÑO</h1>
-						<h2 class="text-xl sm:text-3xl">full stack web developer</h2>
+						<h2 class="text-xl sm:text-3xl text-blue-400">full stack web developer</h2>
 					</div>
 				</div>
 			</div>
@@ -76,7 +76,8 @@ export default {
 				content: 'Learn about Neil Van Alino: his skills and projects.'
 			}
 		],
-	}
+	},
+	layout: 'HomePage',
 }
 </script>
 
