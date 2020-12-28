@@ -56,11 +56,18 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+  	'@nuxt/content',
   ],
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-  }
+  },
+  
+  generate: {
+    exclude: [
+      /^\/admin/ // path starts with /admin
+    ]
+  },
 }
