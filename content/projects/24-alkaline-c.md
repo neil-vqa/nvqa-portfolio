@@ -1,5 +1,5 @@
 ---
-name: 24 Alkaline C
+name: Infinity Wellness - 24 Alkaline C
 description: A mini e-commerce site for Infinity Wellness & Beyond. Also built
   an Admin Portal for the client to manage the orders.
 image: /media/screenshot-from-2020-12-12.png
