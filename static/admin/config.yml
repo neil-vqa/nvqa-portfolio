@@ -18,6 +18,7 @@ collections:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Project Image', name: 'image', widget: 'image'}
+      - { label: 'Link', name: 'link', widget: 'string'}
       - label: 'Stack'
         name: 'stack'
         widget: 'list'
