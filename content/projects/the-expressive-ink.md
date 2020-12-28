@@ -1,5 +1,5 @@
 ---
-name: The Expressive Ink
+name: '"The Expressive Ink"'
 description: A visual storytelling platform that I created. Currently working on
   as a side project. If you'd like to partner up, feel free to contact me.
 image: /media/tei_shot.png
