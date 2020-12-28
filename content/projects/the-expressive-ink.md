@@ -13,5 +13,5 @@ stack:
   - name: Netlify
     icon: /media/full-logo-dark.svg
   - name: Deta
-    icon: /media/deta.png
+    icon: /media/deta_logo.png
 ---
