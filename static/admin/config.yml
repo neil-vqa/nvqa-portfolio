@@ -19,9 +19,9 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Project Image', name: 'image', widget: 'image'}
       - label: 'Stack'
-      	name: 'stack'
-      	widget: 'list'
-      	fields:
-      		- { label: 'name', name: 'name', widget: 'string' }
-      		- { label: 'icon', name: 'icon', widget: 'image' }
+        name: 'stack'
+        widget: 'list'
+        fields:
+          - { label: 'Name', name: 'name', widget: 'string' }
+          - { label: 'Icon', name: 'icon', widget: 'image' }
 

@@ -19,9 +19,9 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Learn about Neil Van Alino: his skills, projects, and more.' },
+      { hid: 'description', name: 'description', content: "Learn about Neil Van's skills and projects. Contact for a web development project." },
       { hid: 'og:title', name: 'og:title', content: 'Neil Van Alino | Web Development Portfolio' },
-      { hid: 'og:description', name: 'og:description', content: 'Learn about Neil Van Alino: his skills, projects, and more.' },
+      { hid: 'og:description', name: 'og:description', content: "Learn about Neil Van's skills and projects. Contact for a web development project." },
       { hid: 'og:image', name: 'og:image', content: '/coding_isometric.png' },
     ],
     link: [

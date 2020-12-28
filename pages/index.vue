@@ -69,14 +69,6 @@
 export default {
 	head() {
 		return {
-			title: 'Neil Van Alino | Web Development Portfolio',
-			meta: [
-				{
-					hid: 'description',
-					name: 'description',
-					content: "Learn about Neil Van's skills and projects. Contact for a web development project."
-				}
-			],
 			script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
 		}
 	},
