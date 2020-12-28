@@ -1,12 +1,15 @@
 <template>
 	<div class="max-w-screen-2xl mx-auto">
-		<div class="my-10 mx-4 sm:mx-16 font-base">
-			<div class="p-2 sm:p-8">
-				<Nuxt keep-alive />
-			</div>
-		</div>
+		<Nuxt keep-alive />
 	</div>
 </template>
 
+<style>
+body {
+	@apply font-base text-gray-200;
+	background-color: #444;
+}
 
+	
+</style>
 
