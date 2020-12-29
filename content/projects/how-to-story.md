@@ -15,5 +15,5 @@ stack:
   - name: Bootstrap
     icon: /media/bootstrap.png
   - name: Flat UI
-    icon: /media/flat_logo.png
+    icon: /media/flat_logo-removebg-preview.png
 ---
