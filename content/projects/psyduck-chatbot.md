@@ -7,7 +7,7 @@ link: https://psyduckchatbot.netlify.app/
 tag: app
 stack:
   - name: Flask
-    icon: /media/flask_logo.png
+    icon: /media/flask_logo-removebg-preview.png
   - name: Python
     icon: /media/python-logo.png
 ---
