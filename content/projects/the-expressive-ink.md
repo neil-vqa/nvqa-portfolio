@@ -10,7 +10,7 @@ stack:
   - name: Nuxt.js
     icon: /media/nuxt.png
   - name: TailwindCSS
-    icon: /media/tailwind.png
+    icon: /media/tailwind-removebg-preview.png
   - name: Netlify
     icon: /media/full-logo-dark.svg
   - name: Deta
