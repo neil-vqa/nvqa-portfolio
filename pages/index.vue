@@ -28,7 +28,7 @@ export default {
 		return {
 			script: [
 				{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
-				/*{ 'src': 'https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js',
+				{ 'src': 'https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js',
 					'data-name': 'BMC-Widget',
 					'data-id': 'neilvan',
 					'data-description': 'Support me on Buy me a coffee!',
@@ -37,13 +37,13 @@ export default {
 					'data-position': 'Right',
 					'data-x_margin': '18',
 					'data-y_margin': '18'
-				}*/
+				}
 			],
 		}
 	},
 	layout: 'HomePage',
 	async asyncData({ $content }) {
-		const projects = await $content("projects").fetch();
+		const projects = await $content("projects").sortBy('name').fetch();
 		
 		return { projects };
 	},
