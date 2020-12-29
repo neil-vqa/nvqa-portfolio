@@ -6,9 +6,9 @@ link: https://white-crema.netlify.app/
 tag: ecom
 stack:
   - name: Strapi
-    icon: /media/strapi.png
+    icon: /media/strapi-removebg-preview.png
   - name: TailwindCSS
-    icon: /media/tailwind.png
+    icon: /media/tailwind-removebg-preview.png
   - name: MongoDB
     icon: /media/mongo.png
 ---
