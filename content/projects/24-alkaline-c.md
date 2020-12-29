@@ -7,9 +7,9 @@ link: https://24alkalinec.com/
 tag: ecom
 stack:
   - name: Flask
-    icon: /media/flask_logo.png
+    icon: /media/flask_logo-removebg-preview.png
   - name: TailwindCSS
-    icon: /media/tailwind.png
+    icon: /media/tailwind-removebg-preview.png
   - name: Vue.js
     icon: /media/vue_logo.png
   - name: Django
