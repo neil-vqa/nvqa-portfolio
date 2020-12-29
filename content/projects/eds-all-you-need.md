@@ -7,7 +7,7 @@ link: https://eds-all-u-need.netlify.app/
 tag: ecom
 stack:
   - name: TailwindCSS
-    icon: /media/tailwind.png
+    icon: /media/tailwind-removebg-preview.png
   - name: Strapi
-    icon: /media/strapi.png
+    icon: /media/strapi-removebg-preview.png
 ---
