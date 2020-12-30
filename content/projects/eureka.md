@@ -10,4 +10,6 @@ stack:
     icon: /media/nuxt.png
   - name: Netlify CMS
     icon: /media/net_cms.png
+  - name: TailwindCSS
+    icon: /media/tailwind-removebg-preview.png
 ---

@@ -9,7 +9,7 @@ stack:
   - name: Vue.js
     icon: /media/vue_logo.png
   - name: TailwindCSS
-    icon: /media/tailwind.png
+    icon: /media/tailwind-removebg-preview.png
   - name: Django
     icon: /media/django_logo.png
   - name: Django REST
