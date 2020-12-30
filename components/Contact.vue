@@ -74,7 +74,7 @@ export default {
 			this.done = false,
 			this.disabler = true;
 			
-			axios.post('https://formspree.io/mbjzzwjy', {
+			this.$axios.$post('https://formspree.io/mbjzzwjy', {
 				"name": this.name,
 				"email": this.email,
 				"message": this.message,
