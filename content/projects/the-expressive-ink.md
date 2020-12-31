@@ -4,7 +4,7 @@ description: A visual storytelling platform that I am building. Currently
   working on it as a side project. If you'd like to be part of the team, feel
   free to contact me.
 image: /media/ink_admin.png
-link: https://theexpressiveink.netlify.app/
+link: https://theexpressiveink.com/
 tag: platform
 stack:
   - name: Nuxt.js
