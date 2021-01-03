@@ -26,7 +26,7 @@
     <vue-final-modal v-model="show" name="projectModal" classes="modal-container">
 		  <template v-slot="{ params }">
 	  		<div class="modal-card">
-	  			<div class="px-5 py-3 bg-blue-800 flex justify-between items-center">
+	  			<div class="px-5 py-3 md:px-8 md:py-5 bg-blue-800 flex justify-between items-center">
 	  				<h5 class="text-lg sm:text-2xl truncate">{{ params.name }}</h5>
 	  				<div class="pl-3">
 	  					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x cursor-pointer hover:text-red-400" 
@@ -38,8 +38,7 @@
 							</svg>
 	  				</div>
 	  			</div>
-	  			<div class="p-5 space-y-5 max-w-screen-sm">
-	  				<p class="text-base sm:text-lg">{{ params.description }}</p>
+	  			<div class="p-5 md:px-8 md:py-6 space-y-6 max-w-screen-sm">
 	  				<div class="flex space-x-5">
 							<div v-for="stack in params.stack">
 								<img :src="stack.icon" class="w-20 h-10 object-contain py-1 px-2 rounded-lg bg-gray-800 overflow-hidden" :alt="stack.name" />
@@ -50,7 +49,7 @@
 	  				</div>
 	  				<div class="">
 	  					<a :href="params.link" target="_blank" 
-	  					class="px-3 py-2 bg-black text-white hover:bg-green-700">Go to site&nearr;
+	  					class="px-3 py-2 bg-black text-white hover:bg-green-700 rounded-lg">Go to site&nearr;
 	  					</a>
 	  				</div>
 	  			</div>
