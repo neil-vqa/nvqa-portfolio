@@ -1,7 +1,8 @@
 ---
 name: '"The Expressive Ink"'
-description: A visual storytelling platform. My personal side project, still a
-  WIP. If you'd like to be part of the team, feel free to contact me.
+description: A visual storytelling platform. Still a WIP personal project. If
+  you'd like to be part of the team, feel free to contact me thru the form
+  below.
 image: /media/ink_admin.png
 link: https://theexpressiveink.com/
 tag: platform
