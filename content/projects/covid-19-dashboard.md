@@ -7,7 +7,7 @@ link: https://covid19-dashboard.herokuapp.com/
 tag: data
 stack:
   - name: Mapbox
-    icon: /media/mapbox-logo-white.svg
+    icon: /media/mapbox-logo-black.svg
   - name: Dash by Plotly
     icon: /media/logo-plotly.svg
   - name: Python
