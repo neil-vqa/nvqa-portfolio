@@ -12,7 +12,7 @@ stack:
   - name: TailwindCSS
     icon: /media/tailwind-removebg-preview.png
   - name: Netlify
-    icon: /media/full-logo-dark.svg
+    icon: /media/full-logo-light.svg
   - name: Deta
     icon: /media/deta-removebg-preview.png
 ---
