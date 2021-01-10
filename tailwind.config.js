@@ -8,7 +8,8 @@ module.exports = {
   theme: {
   	extend: {
     	fontFamily: {
-    		base: ['Ubuntu'],
+    		base: ['Josefin Sans'],
+    		head: ['Cardo'],
     	},
     	maxWidth: {
     		'screen-2xl': '1440px'

@@ -15,7 +15,7 @@
 						</div>
 		  		</div>
 		  		<div class="details-col">
-		  			<h5 class="text-2xl">{{ project.name }}</h5>
+		  			<h5 class="text-2xl font-semibold">{{ project.name }}</h5>
 		  			<p class="text-lg text-gray-500">{{ project.description }}</p>
 		  		</div>
 		  	</div>
@@ -26,10 +26,10 @@
     <vue-final-modal v-model="show" name="projectModal" classes="modal-container">
 		  <template v-slot="{ params }">
 	  		<div class="modal-card">
-	  			<div class="px-5 py-3 md:px-8 md:py-5 bg-blue-800 flex justify-between items-center">
-	  				<h5 class="text-lg sm:text-2xl truncate">{{ params.name }}</h5>
+	  			<div class="px-5 py-3 md:px-8 md:py-5 modal-title">
+	  				<h5 class="text-lg sm:text-2xl truncate font-semibold">{{ params.name }}</h5>
 	  				<div class="pl-3">
-	  					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x cursor-pointer hover:text-red-400" 
+	  					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x cursor-pointer hover:text-red-500" 
 	  						width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
 	  						fill="none" stroke-linecap="round" stroke-linejoin="round" @click="closeModal">
 								<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -41,7 +41,7 @@
 	  			<div class="p-5 md:px-8 md:py-6 space-y-6 max-w-screen-sm">
 	  				<div class="flex space-x-5">
 							<div v-for="stack in params.stack">
-								<img :src="stack.icon" class="w-20 h-10 object-contain py-1 px-2 rounded-lg bg-gray-800 overflow-hidden" :alt="stack.name" />
+								<img :src="stack.icon" class="w-20 h-10 object-contain py-1 px-2 rounded-lg bg-white overflow-hidden" :alt="stack.name" />
 							</div>
 	  				</div>
 	  				<div class="flex justify-center">
@@ -49,7 +49,7 @@
 	  				</div>
 	  				<div class="">
 	  					<a :href="params.link" target="_blank" 
-	  					class="px-3 py-2 bg-black text-white hover:bg-green-700 rounded-lg">Go to site&nearr;
+	  					class="px-3 py-2 bg-black text-white hover:bg-white hover:text-black rounded-lg transition duration-200">Go to site&nearr;
 	  					</a>
 	  				</div>
 	  			</div>
@@ -81,11 +81,13 @@ export default {
 
 <style>
 .project-card {
-	@apply bg-gray-900 overflow-hidden shadow-2xl cursor-pointer;
+	@apply overflow-hidden shadow-2xl cursor-pointer;
+	background-color: #00072D;
 }
 
 .project-card:hover {
-	@apply transition duration-200 bg-gray-800;
+	@apply transition duration-200;
+	background-color: #001C55;
 }
 
 .icon-col {
@@ -101,9 +103,16 @@ export default {
 }
 
 .modal-card {
-	@apply bg-gray-900 overflow-auto;
+	@apply overflow-auto;
+	background-color: #2B2B2B;
 	max-height: 90vh;
+	border-top-left-radius: 2.5rem;
+	border-bottom-right-radius: 2.5rem;
 }
 
+.modal-title {
+	@apply flex justify-between items-center;
+	background-color: #001C55;
+}
 
 </style>

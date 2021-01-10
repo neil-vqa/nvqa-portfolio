@@ -7,7 +7,7 @@
 <style>
 body {
 	@apply font-base text-gray-200;
-	background-color: #444;
+	background-color: #2B2B2B;
 }
 
 	

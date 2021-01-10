@@ -1,8 +1,8 @@
 <template>
 	<div class="max-w-screen-md mx-auto my-16">
 		<div class="text-center">
-			<h1 class="text-6xl capitalize font-bold tracking-wide">neil van aliño</h1>
-			<h1 class="text-4xl capitalize">full stack web developer</h1>
+			<h1 class="text-6xl capitalize font-semibold tracking-wide font-head">neil van aliño</h1>
+			<h1 class="text-2xl capitalize">full stack web developer</h1>
 		</div>
 		<img src="/svg/divider.svg" class="divider-style"/>
 		<div class="section">
@@ -18,6 +18,10 @@
 		<div class="section">
 			<p class="section-heading">Something about me</p>
 			<About />
+		</div>
+		<div class="mt-32">
+			<img src="/nvqa_logo.png" class="w-1/3 mx-auto"/>
+			<p class="text-center text-base mt-5 text-black">Web dev portfolio as of 2021</p>
 		</div>
 	</div>
 </template>
@@ -65,7 +69,8 @@ export default {
 }
 
 .divider-style {
-	@apply h-64 w-5/6 mx-auto object-cover opacity-50 my-20;
+	@apply h-64 w-5/6 mx-auto object-cover my-20;
+	opacity: 60%;
 }
 
 	

@@ -46,7 +46,7 @@
 				</div>
 				<div class="w-full px-3">
 					<button disable="disabler" 
-						class="shadow bg-blue-800 hover:bg-blue-900 focus:shadow-outline focus:outline-none text-white font-bold py-3 px-5 rounded" 
+						class="px-6 py-2 bg-white text-black hover:bg-black hover:text-white rounded-lg transition duration-200 text-lg text-bold" 
 						type="submit">
 						Send
 					</button>
@@ -97,7 +97,8 @@ export default {
 
 <style>
 .contact-card {
-	@apply bg-gray-900 my-16 mx-auto shadow-2xl;
+	@apply my-16 mx-auto shadow-2xl;
+	background-color: #00072D;
 }
 
 .profile-link:hover {
