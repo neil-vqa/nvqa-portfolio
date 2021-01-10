@@ -69,8 +69,7 @@ export default {
 }
 
 .divider-style {
-	@apply h-64 w-5/6 mx-auto object-cover my-20;
-	opacity: 60%;
+	@apply h-64 w-5/6 mx-auto object-cover my-20 opacity-50;
 }
 
 	
