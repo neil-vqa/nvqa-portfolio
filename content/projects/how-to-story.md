@@ -1,7 +1,7 @@
 ---
 name: How-To Story
-description: A social blogging platform that I created. A great learning
-  experience working with Django + Vue.js
+description: A social blogging platform that I created. Had a great learning
+  experience working with Django + Vue.js.
 image: /media/hts_shot.png
 link: https://howto-story.herokuapp.com/
 tag: platform
