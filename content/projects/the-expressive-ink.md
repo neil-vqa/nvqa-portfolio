@@ -15,4 +15,6 @@ stack:
     icon: /media/full-logo-light.svg
   - name: Deta
     icon: /media/deta-removebg-preview.png
+  - name: Digital Ocean
+    icon: /media/do_logo_horizontal_blue.svg
 ---
