@@ -10,4 +10,6 @@ stack:
     icon: /media/tailwind-removebg-preview.png
   - name: Strapi
     icon: /media/strapi-removebg-preview.png
+  - name: Netlify
+    icon: /media/full-logo-light.svg
 ---
