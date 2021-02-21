@@ -8,7 +8,7 @@
 				For the past 2 years after graduating and passing the engineering licensure exam, I have worked as a freelancer in various categories, and shortly as a 3D CAD modeler. I am a <strong class="text-xl">team player</strong> by nature and also reliable and effective in working independently. 
 			</p>
 			<p>
-				I am currently a full stack web developer. I do projects with <strong class="text-xl">Python as backend, serverless, and Vue.js/NuxtJS</strong> frontend projects. 
+				I am currently a full stack web developer. I do projects with <strong class="text-xl">Python as backend, serverless, and Vue.js/Nuxt.js</strong> frontend projects. 
 			</p>
 			<p>
 				Most importantly, I am an <strong class="text-xl">international volunteer</strong> helping all sorts of people to learn and benefit from <strong class="text-xl">God's Word.</strong>
