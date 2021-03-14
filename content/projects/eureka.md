@@ -3,7 +3,7 @@ name: Eureka!
 description: A low cost custom-built Ecommerce + Blog website solution. (Part of
   demo sites for packages I offer to clients.)
 image: /media/eure-01.png
-link: https://specialeureka.netlify.app/
+link: https://eureka.neilvan.com/
 tag: ecom
 stack:
   - name: Nuxt.js
