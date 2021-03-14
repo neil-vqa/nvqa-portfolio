@@ -2,7 +2,7 @@
   <div class="my-32">
   	<!-- projects list -->
   	<div class="grid grid-cols-1 gap-10">
-		  <div v-for="project in projects">
+		  <div v-for="(project, index) in projects" :key="index">
 		  	<div class="project-card grid grid-cols-1 sm:grid-cols-5" @click="showModal(project)">
 		  		<div class="icon-col p-10 sm:pr-0">
 		  			<div class="border-2 border-white rounded-full p-5">
@@ -40,11 +40,11 @@
 	  			</div>
 	  			<div class="p-5 md:px-8 md:py-6 space-y-6 max-w-screen-sm">
 	  				<div class="flex space-x-5">
-							<div v-for="stack in params.stack">
+							<div v-for="(stack, index) in params.stack" :key="index">
 								<img :src="stack.icon" class="w-20 h-10 object-contain py-1 px-2 rounded-lg bg-white overflow-hidden" :alt="stack.name" />
 							</div>
 	  				</div>
-	  				<div class="flex justify-center">
+	  				<div class="flex justify-center project-image">
 	  					<img :src="params.image" class="w-full h-56 object-cover rounded-lg overflow-hidden" :alt="params.slug" />
 	  				</div>
 	  				<div class="">
@@ -88,6 +88,10 @@ export default {
 .project-card:hover {
 	@apply transition duration-200;
 	background-color: #001C55;
+}
+
+.project-image {
+	min-width: 300px;
 }
 
 .icon-col {
