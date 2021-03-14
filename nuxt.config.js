@@ -22,7 +22,7 @@ export default {
       { hid: 'description', name: 'description', content: "Learn about Neil Van's skills and projects. Contact for a web development project." },
       { hid: 'og:title', name: 'og:title', content: 'Neil Van Alino | Web Development Portfolio' },
       { hid: 'og:description', name: 'og:description', content: "Learn about Neil Van's skills and projects. Contact for a web development project." },
-      { hid: 'og:image', name: 'og:image', content: '/coding_isometric.png' },
+      { hid: 'og:image', name: 'og:image', content: '/web_dev.png' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
